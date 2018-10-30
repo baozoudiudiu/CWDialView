@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		28111C902182BB6E00661FDA /* CWDialView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28111C8F2182BB6E00661FDA /* CWDialView.m */; };
+		282BB1352187FB0C0093EC96 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 282BB1342187FB0C0093EC96 /* demo.gif */; };
 		286DE6422181C18B00CA5E6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 286DE6412181C18B00CA5E6B /* AppDelegate.m */; };
 		286DE6452181C18B00CA5E6B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 286DE6442181C18B00CA5E6B /* ViewController.m */; };
 		286DE6482181C18B00CA5E6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286DE6462181C18B00CA5E6B /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		28111C8E2182BB6E00661FDA /* CWDialView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWDialView.h; sourceTree = "<group>"; };
 		28111C8F2182BB6E00661FDA /* CWDialView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWDialView.m; sourceTree = "<group>"; };
+		282BB1342187FB0C0093EC96 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 		286DE63D2181C18A00CA5E6B /* DialDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DialDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		286DE6402181C18B00CA5E6B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		286DE6412181C18B00CA5E6B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -42,6 +44,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		282BB1332187FAF80093EC96 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				282BB1342187FB0C0093EC96 /* demo.gif */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
 		286DE6342181C18A00CA5E6B = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +71,7 @@
 		286DE63F2181C18A00CA5E6B /* DialDemo */ = {
 			isa = PBXGroup;
 			children = (
+				282BB1332187FAF80093EC96 /* source */,
 				286DE6402181C18B00CA5E6B /* AppDelegate.h */,
 				286DE6412181C18B00CA5E6B /* AppDelegate.m */,
 				286DE6432181C18B00CA5E6B /* ViewController.h */,
@@ -134,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				286DE64D2181C19100CA5E6B /* LaunchScreen.storyboard in Resources */,
+				282BB1352187FB0C0093EC96 /* demo.gif in Resources */,
 				286DE64A2181C19100CA5E6B /* Assets.xcassets in Resources */,
 				286DE6482181C18B00CA5E6B /* Main.storyboard in Resources */,
 			);
